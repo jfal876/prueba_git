@@ -1,0 +1,109 @@
+header{
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+.caja{
+    width: 1024px;
+    margin: auto;
+    position: relative;
+}
+nav{
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+nav li{
+    display:inline-block;
+    margin: 0 0 0 20px;
+    justify-content: space-between;
+    
+}
+nav a{
+    text-transform: uppercase;
+    color:#626262;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #fbb040 ;
+    text-decoration: underline;
+}
+.container{
+    background-image: url(Imagenes/banner.jpeg);
+    background-size: cover;
+    padding: 270px;
+    
+}
+.title-main{
+    font-family:"Titillium Web";
+    font-size: 60px;
+    text-align: center;
+    color: #cccccc;
+}
+/* .box{
+    background-image: url(Imagenes/cn400.jpg);
+    background-size: cover;
+    padding: 270px;
+    
+} */
+.inside{
+    font-family:"Titillium Web" ;
+    font-size: 36px;
+    color:#ffffff;
+    text-align: center;
+}
+.title{
+    font-family: "Titillium Web", Arial, Tahoma, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: none;
+    color:#626262;
+    background: #ededed;
+    padding: 60px;
+    margin: 8px 0 0 0;
+}
+h4{
+    font-size: 30px;
+    font-family: "Titillium Web", Arial, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: #444;
+    background: #ededed;
+    margin: 0%;
+    margin-top: 0px;
+   
+}
+.box{
+    padding: 0px 200px;
+    background: #ededed;
+    background-position: center;
+    ;
+    
+}
+.productos-buttton{
+    background: #fbb040;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 30px;
+    transition: all .1s ease-in-out;
+    font-size: 25px;
+    font-family: "Titillium Web", Arial, Tahoma, sans-serif ;
+   
+}
+.boton{
+    text-align: center;
+}
+.productos-buttton:hover{
+    cursor: pointer;
+    background: #9f1010;
+}
+footer{
+    text-align: center;
+    font-size: 30px;
+}
+
+    
+    
+     
+   
